@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+/******************* Header styles start *********************/
+.header {
+  background-color: #fff;
+}
+
+.container {
+  width: 1213px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 41px;
+}
+
+.header-logo-img {
+  width: 146px;
+  height: 52px;
+}
+
+.sitenav-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.sitenav-link {
+  font-size: 17px;
+  line-height: 20px;
+  color: #373737;
+  text-decoration: none;
+  margin-left: 68px;
+  padding-bottom: 13px;
+}
+
+.sitenav-link-active {
+  border-bottom: 3px solid #717cff;
+}
+
+.apply-link {
+  width: 111px;
+  height: 42px;
+  border: 2px solid #717cff;
+  border-radius: 11px;
+  padding-top: 9px;
+
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #505050;
+}
+
+/******************* Header styles end *********************/
+
+/******************* Main styles start *********************/
+.your-dream-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 117px;
+}
+
+.your-dream-start {
+  width: 632px;
+}
+
+.your-dream-start-title {
+  width: 500px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 66px;
+  color: #2f2f2f;
+}
+
+.start-title-color {
+  color: #717cff;
+}
+
+.your-dream-start-desc {
+  font-size: 22px;
+  line-height: 38px;
+  color: #7d7d7d;
+  margin-top: 15px;
+  margin-bottom: 42px;
+}
+
+.your-dream-start-apply-online {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 262px;
+  height: 64px;
+  background-color: #717cff;
+  border-radius: 11px;
+  margin-bottom: 104px;
+  /* padding-top: 12px;
+  padding-right: 23px;
+  padding-bottom: 12px;
+  padding-left: 34px; */
+  padding: 12px 23px 12px 34px;
+}
+
+.apply-online-link {
+  font-size: 22px;
+  line-height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-networks-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Universities section styles start */
+.universities {
+  background-color: #fafafa;
+}
+
+.universities-wrapper {
+  padding-top: 35px;
+  padding-bottom: 57px;
+}
+
+.universities-title {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 2.1px;
+  color: #37373773;
+  margin-bottom: 94px;
+}
+
+.universities-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 110px;
+  padding-left: 0;
+}
+
+.universities-indicators {
+  width: 14px;
+  height: 14px;
+  background-color: #717cff;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  box-shadow: 30px 0px 0px -1px #7c7c7c51, 60px 0px 0px -1px #7c7c7c51,
+    90px 0px 0px -1px #7c7c7c51;
+}
+
+/* Universities section styles end */
+
+/* Services section styles start */
+.services-content {
+  padding-top: 122px;
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: -0.4625px;
+  color: #373737;
+  margin-top: 0;
+}
+
+.services-desc {
+  width: 949px;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7d7d7d;
+  text-align: center;
+  /* margin: 0 auto; */
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.services-card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 76px;
+  padding-top: 110px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.services-card-item {
+  width: 344px;
+  margin-right: 47px;
+  margin-bottom: 50px;
+  /* padding-top: 29px;
+  padding-right: 17px;
+  padding-bottom: 34px;
+  padding-left: 31px; */
+  padding: 29px 17px 34px 31px;
+  box-shadow: 0px 0px 77px #0000000f;
+  border-radius: 15px;
+}
+
+.item-card-margin{
+  margin-right: 0;
+}
+
+.item-card-end{
+  margin-right: 0;
+}
+
+
+.item-circle {
+  width: 76px;
+  height: 76px;
+  padding: 22px;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.item-circle-darkblue{
+  background-color: #717cff;
+}
+
+.item-circle-darkcoral{
+  background-color: #FF5959;
+}
+
+.item-circle-lightgreen{
+  background-color: #70CE88;
+}
+
+.item-circle-lightblue{
+  background-color: #5C96FF;
+}
+
+.item-circle-lightcoral{
+  background-color: #FA706C;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #37474f;
+  margin-bottom: 9px;
+}
+
+.item-desc {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.444444px;
+  color: #37474fb8;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.item-more{
+  display: flex;
+  align-items: center;
+}
+
+.item-more-link{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.439286px;
+  color: #717CFF;  
+  text-decoration: none;
+  margin-right: 20px;
+}
+/* Services section styles end */
+
+/******************* Main styles end *********************/
+
+/* DRY - Don't repeat, yourself! (O'zingni takrorlama) */
+/* KISS - Keep it simple, stupid! (Oddiylikcha qolsin, jinni) */
+/* YAGNI - You aren't gonna need it! 
+(Hozir kerakmasmi, aqillilik qilib yangilik qo'shma) */
